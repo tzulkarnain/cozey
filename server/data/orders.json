@@ -1,0 +1,71 @@
+[
+    {
+      "orderId": 1,
+      "orderTotal": 150.00,
+      "orderDate": "2023-09-15",
+      "shippingAddress": "100 Dundas Street East",
+      "customer": {
+        "name": "John Smith",
+        "email": "john.smith@example.com"
+      },
+      "lineItems": [
+        { "lineItemId": 1, "productId": "valentine-box", "productName": "Valentine's Box", "price": 50.00 },
+        { "lineItemId": 2, "productId": "birthday-box", "productName": "Birthday Box", "price": 100.00 }
+      ]
+    },
+    {
+      "orderId": 2,
+      "orderTotal": 50.00,
+      "orderDate": "2023-09-15",
+      "shippingAddress": "100 Queen Street East",
+      "customer": {
+        "name": "Rob Smith",
+        "email": "rob.smith@example.com"
+      },
+      "lineItems": [
+        { "lineItemId": 3, "productId": "valentine-box", "productName": "Valentine's Box", "price": 50.00 }
+      ]
+    },
+    {
+      "orderId": 3,
+      "orderTotal": 100.00,
+      "orderDate": "2023-09-15",
+      "shippingAddress": "100 King Street East",
+      "customer": {
+        "name": "Dan Smith",
+        "email": "dan.smith@example.com"
+      },
+      "lineItems": [
+        { "lineItemId": 4, "productId": "birthday-box", "productName": "Birthday Box", "price": 100.00 }
+      ]
+    },
+    {
+      "orderId": 4,
+      "orderTotal": 200.00,
+      "orderDate": "2023-09-16",
+      "shippingAddress": "200 Bay Street",
+      "customer": {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com"
+      },
+      "lineItems": [
+        { "lineItemId": 5, "productId": "client-gift-box", "productName": "Client Gift Box", "price": 200.00 }
+      ]
+    },
+    {
+      "orderId": 5,
+      "orderTotal": 300.00,
+      "orderDate": "2023-09-16",
+      "shippingAddress": "300 Front Street",
+      "customer": {
+        "name": "Bob Johnson",
+        "email": "bob.johnson@example.com"
+      },
+      "lineItems": [
+        { "lineItemId": 6, "productId": "valentine-box", "productName": "Valentine's Box", "price": 50.00 },
+        { "lineItemId": 7, "productId": "birthday-box", "productName": "Birthday Box", "price": 100.00 },
+        { "lineItemId": 8, "productId": "client-gift-box", "productName": "Client Gift Box", "price": 150.00 }
+      ]
+    }
+  ]
+  
