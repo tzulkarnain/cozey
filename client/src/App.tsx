@@ -36,14 +36,19 @@ function App() {
   // Function to handle marking an item as shipped
   const markAsShipped = async (orderId: number) => {
     try {
-      await axios.post(`http://localhost:8080/api/shipped/${orderId}`);
+      // Simulate a delay to mock an API call
+      await new Promise((resolve) => setTimeout(resolve, 500));
+
+      // Simulate success response
       setPackingList(packingList.filter(order => order.orderId !== orderId));
+      
+      console.log(`Order ${orderId} marked as shipped.`);
     } catch (error) {
       console.error('Error marking item as shipped', error);
     }
   };
 
-  const handlePick = (itemId) => {
+  const handlePick = (itemId: any) => {
     if (pickedItems.includes(itemId)) {
       setPickedItems(pickedItems.filter((id) => id !== itemId));
     } else {
@@ -105,7 +110,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
